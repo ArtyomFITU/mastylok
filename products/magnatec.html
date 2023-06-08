@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <title>МаслярОк</title>
+</head>
+<body>
+  <script src="../cart.js"></script> 
+    <header></header>
+    <nav class="page-nav">
+        <div class="container">
+         <ul>
+             <li><img src="../pngwing.com.png"></li>
+             <li><a href="../index.html">Каталог</a></li>
+             <li><a href="../contacts.html">Контакти</a></li>
+             <li><a href="../about.html">Про нас</a></li>
+         </ul>
+         <a class="cart-image" href="../cart.html"> <img class="cart-image" src="../cart.png" alt="Кошик"></a>
+        </div>
+    </nav>
+    <main>
+        <div class="product-card">
+            <div class="product-card-image">
+              <img src="../6.jpeg" alt="Моторное масло">
+            </div>
+            <div class="product-details">
+              <h2 class="product-title">Castrol Magnatec Stop-start A5 </h2>
+              <p class="product-description">Спеціально розроблено для двигунів бензин / дизель автомобілів марки Форд, включаючи ті, які оснащені фільтрами саж.</p>
+              <table class="product-specs">
+                <tr>
+                  <td>Тип:</td>
+                  <td>Синтетична</td>
+                </tr>
+                <tr>
+                  <td>Вʼязкість:</td>
+                  <td>5W-30</td>
+                </tr>
+                <tr>
+                  <td>Класифікація API:</td>
+                  <td>SN</td>
+                </tr>
+                <tr>
+                  <td>Ємність:</td>
+                  <td>4 літри</td>
+                </tr>
+              </table>
+              <p class="product-price">Ціна: 1 760 грн.</p>
+              <button class="add-to-cart-button" onclick="addToCart('Castrol Magnatec Stop-start A5', '1 760 грн.')">Додати у кошик</button>
+            </div>
+          </div>
+          <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <h2>Успішно!</h2>
+                <p>Ви додали товар до кошику.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>©Великодний Артем 2023</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <title>МаслярОк</title>
+</head>
+<body>
+  <script src="../cart.js"></script> 
+    <header></header>
+    <nav class="page-nav">
+        <div class="container">
+         <ul>
+             <li><img src="../pngwing.com.png"></li>
+             <li><a href="../index.html">Каталог</a></li>
+             <li><a href="../contacts.html">Контакти</a></li>
+             <li><a href="../about.html">Про нас</a></li>
+         </ul>
+         <a class="cart-image" href="../cart.html"> <img class="cart-image" src="../cart.png" alt="Кошик"></a>
+        </div>
+    </nav>
+    <main>
+        <div class="product-card">
+            <div class="product-card-image">
+              <img src="../3.jpeg" alt="Моторное масло">
+            </div>
+            <div class="product-details">
+              <h2 class="product-title">Elf Evolution 700 STI 10W-40</h2>
+              <p class="product-description">Напівсинтетична олива Elf Evolution 700 STI 10W-40 високої якості розроблена для всіх видів експлуатації та всіх типів водіння, зокрема екстремальних. Уможливлює збереження чистоти двигуна і зведення до мінімуму його зношування, захищає в умовах екстремальних температур.</p>
+              <table class="product-specs">
+                <tr>
+                  <td>Тип:</td>
+                  <td>Полусинтетика</td>
+                </tr>
+                <tr>
+                  <td>Вʼязкість:</td>
+                  <td>10W-40</td>
+                </tr>
+                <tr>
+                  <td>Класифікація API:</td>
+                  <td>CF, SN</td>
+                </tr>
+                <tr>
+                  <td>Ємність:</td>
+                  <td>4 літри</td>
+                </tr>
+              </table>
+              <p class="product-price">Ціна: 902 грн.</p>
+              <button class="add-to-cart-button" onclick="addToCart('Elf Evolution 700 STI 10W-40', '902 грн.')">Додати у кошик</button>
+            </div>
+          </div>
+          <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <h2>Успішно!</h2>
+                <p>Ви додали товар до кошику.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>©Великодний Артем 2023</p>
+    </footer>
+</body>
+</html>

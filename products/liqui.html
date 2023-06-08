@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style.css" rel="stylesheet" type="text/css">
+    <title>МаслярОк</title>
+</head>
+<body>
+  <script src="../cart.js"></script> 
+    <header></header>
+    <nav class="page-nav">
+        <div class="container">
+         <ul>
+             <li><img src="../pngwing.com.png"></li>
+             <li><a href="../index.html">Каталог</a></li>
+             <li><a href="../contacts.html">Контакти</a></li>
+             <li><a href="../about.html">Про нас</a></li>
+         </ul>
+         <a class="cart-image" href="../cart.html"> <img class="cart-image" src="../cart.png" alt="Кошик"></a>
+        </div>
+    </nav>
+    <main>
+        <div class="product-card">
+            <div class="product-card-image">
+              <img src="../4.jpeg" alt="Моторное масло">
+            </div>
+            <div class="product-details">
+              <h2 class="product-title">Liqui Moly MoS2 Leichtlauf 10W-40</h2>
+              <p class="product-description">Напівсинтетична моторна олива Liqui Moly MoS2 Leichtlauf 10W-40 розроблена для двигунів, які працюють як на бензині, так і на дизельному паливі. Ця олива створена на базі поліальфаолефінів, що забезпечують низьку температуру замерзання і випаровуваність. Такі властивості уможливлюють пуск двигуна за низьких температур і зменшення витрати оливи. Лінійка моторних олив Leichtlauf за своєю якістю практично не поступається повністю синтетичним оливам. 
+
+            </p>
+              <table class="product-specs">
+                <tr>
+                  <td>Тип:</td>
+                  <td>Полусинтетика</td>
+                </tr>
+                <tr>
+                  <td>Вʼязкість:</td>
+                  <td>10W-40</td>
+                </tr>
+                <tr>
+                  <td>Класифікація API:</td>
+                  <td>CF, SL</td>
+                </tr>
+                <tr>
+                  <td>Ємність:</td>
+                  <td>4 літри</td>
+                </tr>
+              </table>
+              <p class="product-price">Ціна: 1 545 грн.</p>
+              <button class="add-to-cart-button" onclick="addToCart('Liqui Moly MoS2 Leichtlauf 10W-40', '1 545 грн.')">Додати у кошик</button>
+            </div>
+          </div>
+          <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close" onclick="hidePopup()">&times;</span>
+                <h2>Успішно!</h2>
+                <p>Ви додали товар до кошику.</p>
+            </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+        <p>©Великодний Артем 2023</p>
+    </footer>
+</body>
+</html>

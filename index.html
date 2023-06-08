@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>МаслярОк</title>
+</head>
+<body>
+    <header></header>
+    <nav class="page-nav">
+        <div class="container">
+         <ul>
+             <li><img src="pngwing.com.png"></li>
+             <li><a href="index.html">Каталог</a></li>
+             <li><a href="contacts.html">Контакти</a></li>
+             <li><a href="about.html">Про нас</a></li>
+         </ul>
+         <a class="cart-image" href="cart.html"> <img class="cart-image" src="cart.png" alt="Кошик"></a>
+        </div>
+    </nav>
+    <div class="wrapper">
+    <aside class="filter">
+        <div class="filter-content">
+          <form>
+            <label id="maxPrice" for="brand">Бренд</label>
+            <ul>
+                <li><input type="checkbox" name="filter" value="castrol">Castrol</li>
+                <li><input type="checkbox" name="filter" value="elf">Elf</li>
+                <li><input type="checkbox" name="filter" value="liqui">Liqui Moly</li>
+                <li><input type="checkbox" name="filter" value="mobil">Mobil</li>
+                <li><input type="checkbox" name="filter" value="zic">ZIC</li>
+            </ul>
+            <label for="viscosity">Вʼязкість:</label>
+            <ul>
+                <li><input type="checkbox" name="viscosity" value="0w-30">0W-30</li>
+                <li><input type="checkbox" name="viscosity" value="5w-30">5W-30</li>
+                <li><input type="checkbox" name="viscosity" value="10w-40">10W-40</li>
+            </ul>
+            <label for="type">Тип:</label>
+            <ul>
+                <li><input type="checkbox" name="type" value="synthetic">Синтетика</li>
+                <li><input type="checkbox" name="type" value="semi-synthetic">Полусинтетика</li>
+                <li><input type="checkbox" name="type" value="mineral">Мінеральне</li>
+            </ul>
+            <br>
+            <button type="submit" id="filterButton">Застосувати</button>
+          </form>
+        </div>
+    </aside>
+    <main>
+        <div class="container">
+        <!-- <input type="radio" name="choose" id="choose1" checked> -->
+        <!-- <input type="radio" name="choose" id="choose2"> -->
+        <div class="box">
+            <div class="box_1" id="edge" data-category="castrol" data-viscosity="0w-30" data-type="synthetic">
+                <div class="product-image">
+                <img src="1.jpeg" alt="">
+                </div>
+                <div class="inform">
+                    <div class="text_title">
+                        <a href="products/edge.html">Castrol EDGE A5/B5 0W-30</a>
+                    </div>
+                    <div class="text_category">Синтетика</div>
+                    <div class="price">2 497 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                    </p>
+                </div>
+            </div>
+            <div class="box_1" id="zic" data-category="zic" data-viscosity="10w-40" data-type="semi-synthetic">
+                <div class="product-image">
+                    <img src="2.jpeg" alt="">
+                </div>
+                   <div>
+                    <div class="text_title">
+                        <a href="products/zic.html">ZIC X5 10W-40
+                        </a>
+                    </div>
+                    <div class="text_category">Полусинтетика</div>
+                    <div class="price">840 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                       
+                    </p>
+                </div>
+            </div>
+            <div class="box_1" id="elf" data-category="elf" data-viscosity="10w-40" data-type="semi-synthetic">
+                <div class="product-image">
+                    <img src="3.jpeg" alt="">
+                </div>
+                <div>
+                    <div class="text_title">
+                        <a href="products/elf.html">Elf Evolution 700 STI 10W-40</a>
+                    </div>
+                    <div class="text_category">Полусинтетика</div>
+                    <div class="price">902 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="box_1"id="liqui" data-category="liqui" data-viscosity="10w-40" data-type="semi-synthetic">
+                <div class="product-image">
+                    <img src="4.jpeg" alt="">
+                </div>
+                   <div>
+                    <div class="text_title">
+                        <a href="products/liqui.html">Liqui Moly MoS2 Leichtlauf 10W-40</a>
+                    </div>
+                    <div class="text_category">Полусинтетика</div>
+                    <div class="price">1545 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                        
+                    </p>
+                </div>
+            </div>
+            <div class="box_1"id="mobil" data-category="mobil" data-viscosity="5w-30" data-type="synthetic">
+                <div class="product-image">
+                    <img src="5.webp" alt="">
+                </div>
+
+                <div>
+                    <div class="text_title">
+                        <a href="products/mobil.html">Mobil Super 3000 XE 5W-30</a>
+                    </div>
+                    <div class="text_category">Синтетика</div>
+                    <div class="price">1 310 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                    </p>
+                </div>
+            </div>
+            <div class="box_1"id="magnatec" data-category="magnatec" data-viscosity="5w-30" data-type="synthetic">
+                <div class="product-image">
+                    <img src="6.jpeg" alt="">
+                </div>
+                <div>
+                    <div class="text_title">
+                        <a href="products/magnatec.html">Castrol Magnatec Stop-start A5 5W-30</a>
+                    </div>
+                    <div class="text_category">Синтетика</div>
+                    
+                    <div class="price">1 760 грн.</div>
+                </div>
+                <div class="text">
+                    <p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <!-- <footer class="site-footer">
+        <div>
+            <p>© МаслярОк 2023</p>
+        </div> 
+    </footer> -->
+    <script src="filter.js"></script>
+    <script src="cart.js"></script>
+</body>
+</html>
